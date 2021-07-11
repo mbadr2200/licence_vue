@@ -112,12 +112,15 @@ select {
   display: flex;
   justify-content: center;
   align-items: center;
+  background:#eee;
+  width: 50%;
 }
 .key_container input {
-  width: 46%;
+  flex: 1;
 }
 .generate_key {
   height: 100%;
+  width:40px;
   margin-left: 10px;
   border-radius: 8px;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 200ms all;
